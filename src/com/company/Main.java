@@ -51,6 +51,7 @@ public class Main {
 
         public static void addPrice(int applesPrice){
             Apple.applePrice = Apple.applePrice + applesPrice;
+            Apple.applePrice = Apple.applePrice + applesPrice;
             System.out.println("Стоимость " + applesPrice);
         }
     }
