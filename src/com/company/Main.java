@@ -39,10 +39,12 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+        Apple appleRed = new Apple();
+        appleRed.addPrice(50);
         Apple apple = new Apple();
-        apple.addPrice(50);
+        apple.addPrice(100);
         Apple apple1 = new Apple();
-        apple1.addPrice(100);
+        apple.addPrice(51);
         System.out.println("Стоимость яблок " + Apple.applePrice);
     }
 
